@@ -1,7 +1,7 @@
 from .base_test import BaseTest
 from pages.tech_step_academy.trial_stones_page import TrialStonesPage
 
-class TralStonesPageTest(BaseTest):
+class TrialStonesPageTest(BaseTest):
     page_class = TrialStonesPage
 
     def __init__(self):
