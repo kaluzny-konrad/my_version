@@ -1,5 +1,5 @@
 from ..base_page import BasePage
 
-class TsaMainPage(BasePage):
+class MainPage(BasePage):
     domain = "https://techstepacademy.com"
     path = ""

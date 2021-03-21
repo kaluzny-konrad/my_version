@@ -1,10 +1,14 @@
 from selenium.webdriver.common.by import By
-from .main_page import TsaMainPage
-from elements.base_button import BaseButton
-from elements.base_input import BaseInput
-from elements.base_select import BaseSelect
 
-class TrainingGround(TsaMainPage):
+from .main_page import MainPage
+
+from elements.base_input import BaseInput
+from elements.base_button import BaseButton
+from elements.base_select import BaseSelect
+from elements.base_text import BaseText
+
+
+class TrainingGroundPage(MainPage):
     path = "training-ground"
 
     @property
